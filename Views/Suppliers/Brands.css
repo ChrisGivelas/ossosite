@@ -1,39 +1,39 @@
 @charset "utf-8";
-#Main
-{
-	text-align:center;
+
+#Main {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.BrandBox
-{
-	background-color:white;
-	border-radius:2px;
-	opacity:0.8;
-	display:inline-block;
-	height:350px;
-	padding:20px;
-	margin:10px;
+.BrandBox {
+    background-color: white;
+    border-radius: 2px;
+    display: inline-block;
+    width: 25%;
+    margin: 15px;
+    padding: 15px;
 }
 
-table
-{
-	margin:auto;
+table {
+    margin: auto;
 }
 
-td
-{
-	color:black;
-	text-align:center;
+td {
+    color: black;
+    text-align: center;
 }
 
-.Brand
-{
-	display:block;
-	margin:10px;
-	margin-bottom:20px;
+.Brand {
+    opacity: 0.6;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
-.BrandBox:hover
-{
-	opacity:1.0;
+.Brand:hover {
+    opacity: 1;
 }
