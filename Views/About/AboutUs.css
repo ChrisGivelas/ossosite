@@ -1,0 +1,26 @@
+@charset "utf-8";
+#History
+{
+	width:1000px;
+	text-align:justify;
+	border:1px white solid;
+	padding:20px;
+	background:rgba(0,0,0,0.4);
+	border-radius:2px;
+}
+
+.pic
+{
+	width:330px;
+}
+
+#magazineBit
+{
+	opacity:0.8;
+}
+
+#magazineBit:hover
+{
+	opacity:1.0;
+}
+

@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+#CenteringPanel
+{
+	width:70%;
+	margin:auto;	
+}
+
+#Wall
+{
+	width:1032px;
+	margin:auto;
+	position:relative;
+	height:500px;
+}
+
+.two
+{
+	opacity:0;
+}
+
+.img
+{
+	border:solid white 1px;
+}
+
+.img, .picture
+{
+	position:absolute;
+}
+
+.frame1
+{
+	
+}
+
+.frame2
+{
+	left:350px;
+}
+
+.frame3
+{
+	left:700px;
+}

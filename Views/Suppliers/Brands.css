@@ -1,0 +1,39 @@
+@charset "utf-8";
+#Main
+{
+	text-align:center;
+}
+
+.BrandBox
+{
+	background-color:white;
+	border-radius:2px;
+	opacity:0.8;
+	display:inline-block;
+	height:350px;
+	padding:20px;
+	margin:10px;
+}
+
+table
+{
+	margin:auto;
+}
+
+td
+{
+	color:black;
+	text-align:center;
+}
+
+.Brand
+{
+	display:block;
+	margin:10px;
+	margin-bottom:20px;
+}
+
+.BrandBox:hover
+{
+	opacity:1.0;
+}
