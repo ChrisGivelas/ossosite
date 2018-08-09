@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+* {
+    -webkit-padding-start: 0px;
+}
+
 #Main {
     text-align: center;
     width: 80%;
@@ -10,21 +14,15 @@
 }
 
 .BrandBox {
-    background-color: white;
-    border-radius: 2px;
-    display: inline-block;
+    display: block;
     width: 25%;
     margin: 15px;
     padding: 15px;
-}
-
-table {
-    margin: auto;
-}
-
-td {
+    border-radius: 4px;
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
     color: black;
-    text-align: center;
 }
 
 .Brand {
@@ -34,6 +32,10 @@ td {
     width: 100%;
 }
 
-.Brand:hover {
+.BrandBox:hover .Brand {
     opacity: 1;
+}
+
+li {
+    list-style-type: none;
 }
