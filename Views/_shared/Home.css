@@ -13,6 +13,10 @@ body {
     text-align: center;
 }
 
+#ButtonHolder a {
+    text-decoration: none;
+}
+
 .button {
     opacity: 0.8;
     margin-left: 30px;
