@@ -6,6 +6,17 @@
 	margin:auto;	
 }
 
+#new-website {
+	width: 1002px;
+	border: 2px solid red;
+	background: rgba(255,255,255,0.8);
+	color: red;
+	padding: 15px;
+	font-size: 1.25rem;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
 #Wall
 {
 	width:1032px;
