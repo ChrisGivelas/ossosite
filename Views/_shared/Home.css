@@ -3,6 +3,7 @@ body {
     font-family: "Century Gothic", sans-serif;
     background: url("pattern-15.png");
     color: #ffffff;
+    margin: 0px;
 }
 
 #LogoHolder,
@@ -39,13 +40,21 @@ body {
     text-decoration-line: none;
 }
 
-#new-website {
-	width: 1002px;
-	border: 2px solid red;
-	background: rgba(255,255,255,0.8);
-	color: red;
-	padding: 15px;
-	font-size: 1.25rem;
-	margin: auto;
-	margin-bottom: 15px;
+.alert {
+    width: 1002px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    font-size: 1.25rem;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.alert.primary {
+    border: 2px solid #10993b;
+    color: #10993b;
+}
+
+.alert.warning {
+    border: 2px solid red;
+    color: red;
 }
